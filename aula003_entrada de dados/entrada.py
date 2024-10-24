@@ -10,7 +10,7 @@ print()
 #aqui vamos entrar com os dados
 nome = input('Entre com o nome: ')
 # primeiro deu o nome da variavel, logo depois ta dizendo oque ela vaireceber, acompanhado da mensagem que vai pedir pra ela receber
-nascimento = (input('Entre com seu nascimento: '))
+nascimento = input('Entre com seu nascimento: ')
 print()
 
 print('-'*70)
