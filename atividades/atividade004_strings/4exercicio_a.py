@@ -10,5 +10,8 @@ nome_do_meio = input('O do meio: ')
 sobrenome = input('Sobrenome: ')
 print()
 
-print(f'Seu nome é {nome} {nome_do_meio} {sobrenome}')
+#concatenação
+nome_completo = nome + ' ' + nome_do_meio + ' ' + sobrenome
+
+print(f'Seu nome é {nome_completo}')
 print()
