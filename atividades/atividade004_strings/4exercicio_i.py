@@ -11,8 +11,8 @@ print()
 
 lista = nome.split()
 
-primeiro = lista[0:1]
-ultimo = lista[-1:]
+primeiro = lista[0]
+ultimo = lista[-1]
 
 print(f'Seu priemiro e ultimo nome: {primeiro}, {ultimo}')
 print()

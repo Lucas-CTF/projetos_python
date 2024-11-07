@@ -13,7 +13,8 @@ print(f'Frase: {frase}')
 quantidade_de_caracteres = len(frase)
 minusculas = frase.lower()
 maiuscula = frase.upper()
-segunda_palavra = len("conjunto")
+frase_quebrada = frase.split()
+segunda_palavra = len(frase_quebrada[1])
 
 print(f'Quantidade de letras na frase: {quantidade_de_caracteres}\n\
 Tudo minusculo: {minusculas}\nTudo maiusculo: {maiuscula}\n\
