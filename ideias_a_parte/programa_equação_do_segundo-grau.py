@@ -15,7 +15,7 @@ a = int(input('Me diga o valor de A: '))
 b = int(input('Me diga o valor de B: '))
 c = int(input('Me diga o valor de C: '))
 
-reposta_do_usuario = str(input(f'A equação que você digitou é {a}x^2 {b} {c} = 0? '))
+reposta_do_usuario = str(input(f'A equação que você digitou é {a}x^2 {b} {c} = 0? ')).lower()
 print()
 
 if reposta_do_usuario == 'sim':
