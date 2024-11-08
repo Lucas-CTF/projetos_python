@@ -16,4 +16,3 @@ a = float(input('Insira A: '))
 b = float(input('Insira B: '))
 c = float(input('Insira C: '))
 print()
-#termino depois
