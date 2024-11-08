@@ -16,3 +16,24 @@ a = float(input('Insira A: '))
 b = float(input('Insira B: '))
 c = float(input('Insira C: '))
 print()
+
+delta = b**2 -(4 * a * c)
+raiz_delta = math.sqrt(delta)
+x1 = (-b + raiz_delta) / (2*a)
+x2 = (-b - raiz_delta) / (2*a)
+
+print(f'EQUAÇÃO: +{a}x² +{b}x +{c}')
+resposta = input('A equação acima está correta? (sim/não): ').lower()
+
+if resposta == 'sim':
+    if delta < 0:
+        print('Não existe raiz para delta negativo ')
+    elif delta >= 0:
+        print(f'Delta = {delta}')
+        print(f'Raiz de delta = {raiz_delta}')
+        print(f'XI = {x1}')
+        print(f'XII = {x2}')
+
+else:
+    print('Renicie o programa!')
+print()
